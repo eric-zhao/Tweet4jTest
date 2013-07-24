@@ -37,6 +37,7 @@ public class GetHomeTimeline {
             User user = twitter.verifyCredentials();
             List<Status> statuses = twitter.getHomeTimeline();
             System.out.println("Showing @" + user.getScreenName() + "'s home timeline.");
+            System.out.println("I add some code in Mac");
             for (Status status : statuses) {
             	System.out.println("The acount of retweet is: "+ status.getRetweetCount());
             	System.out.println("The retweet id is: "+ status.getCurrentUserRetweetId());
