@@ -38,7 +38,7 @@ public class GetHomeTimeline {
             List<Status> statuses = twitter.getHomeTimeline();
             System.out.println("Showing @" + user.getScreenName() + "'s home timeline.");
             System.out.println("I add some code in Mac");
-            
+            System.out.println("not work 12:26");
             System.out.println("I add some code in Mac book at 11:39pm");
             System.out.println("I add some code in Mac book at 12:11pm");
             System.out.println("I add some code in Mac again");
