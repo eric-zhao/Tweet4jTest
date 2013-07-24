@@ -40,6 +40,9 @@ public class GetHomeTimeline {
             System.out.println("I add some code in Mac");
             
             System.out.println("I add some code in Mac book at 11:39pm");
+
+            System.out.println("I add some code in Mac again");
+
             for (Status status : statuses) {
             	System.out.println("The acount of retweet is: "+ status.getRetweetCount());
             	System.out.println("The retweet id is: "+ status.getCurrentUserRetweetId());
